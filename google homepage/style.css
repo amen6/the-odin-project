@@ -58,17 +58,24 @@ li a {
   color: rgb(68, 68, 70);
   text-decoration: none;
   font-size: 20px;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 ul {
   list-style: none;
-  float: right;
   display: flex;
-  width: 100%;
+  width: 300px;
   margin: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 nav { 
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  border-radius: 50%;
+}
+.menu {
+  width: 24px;
 }
