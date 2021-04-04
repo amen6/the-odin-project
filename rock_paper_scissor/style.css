@@ -1,0 +1,99 @@
+body {
+    background-image: url(images/background.png);
+    color: aliceblue;
+    font-family: Lacquer;
+}
+nav {
+    text-align: center;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 75px;
+    margin: 10px auto 0 auto; 
+}
+
+.score { 
+    margin: 0 auto;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.scorenum {
+    padding: 0 40px;
+}
+#endgame {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.choice {
+    height: 200px;
+    width: 200px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.choice img {
+    height: 150px;
+}
+.choice:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 1px;
+}
+
+.explaindiv {
+    text-align: center;
+    font-size: 50px;
+}
+
+.choices {
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#restart {
+    font-size: 2rem;
+}
+
+#result {
+    font-size: 100px;
+}
+
+.btn-gold {
+    color: #fff;
+    background-color: gold;
+    border-color: gold;
+}
+.btn-gold:hover {
+    color: #fff;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.green-glow {
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+	border: 4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+}

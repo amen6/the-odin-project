@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lacquer' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Rock Paper Scissors</h1>
+    </nav>
+    <div class="score">
+        <span>You<span id="userscore" class="scorenum">0</span></span>
+        <span>Computer<span id="computerscore" class="scorenum">0</span></span>
+    </div>
+    <div id="endgame"> 
+        <div>
+            <button class="btn" id="restart">Restart</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <div class="explaindiv">
+        <p class="explain">Choose a tool by clicking on it</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="images/rock.png" alt="rock" id="r">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="images/paper.png" alt="paper" id="p">
+        </div>
+        <div class="choice" id="Scissor">
+             <img src="images/scissor.png" alt="scissor" id="s">
+        </div>   
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
