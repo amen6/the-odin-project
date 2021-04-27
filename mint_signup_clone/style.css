@@ -1,0 +1,254 @@
+* {
+    font-family: "Lato";
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background: #ECEEF1;
+    margin: 0;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 25px;
+    align-items: center;
+    min-width: 330px;
+}
+
+#login-text {
+    font-size: 12px;
+    padding-right: 7px;
+    line-height: 1.5;
+}
+
+#forget-pass {
+    color: #0077C5;
+}
+
+#login-btn {
+    display: flex;
+    align-items: center;
+    background: #0077C5;
+    color: #fff;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    padding: 0 20px;
+    font-size: 13.5px;
+    height: 34px;
+}
+
+.lock {
+    margin: 0 6px 0 0;
+    height: 20px;
+}
+
+#logo-container {
+    display: flex;
+    margin: 20px auto;
+    height: 35px;
+    width: 118px;
+    background-image: url("images/logo.png");
+}
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    height: 23px;
+    width: 318px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#mint-logo {
+    width: 66px;
+    background-image: url("images/logo.png");
+    background-position: 310px 27px;    
+}
+
+#quickbooks-logo {
+    width: 128px;
+    background-image: url("images/logo.png");
+    background-position: 448px 27px;
+    margin: 0 10px;    
+}
+
+#turbotax-logo {
+    width: 103px;
+    background-image: url("images/logo.png");
+    background-position: 562px 27px;    
+}
+
+main {
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    width: 380px;
+    border-radius: 2px;
+    padding: 30px;
+    -webkit-box-sizing: border-box
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.first-color {
+    color: #393A3D;
+}
+
+#head-main {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+}
+
+.secondary-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.learn-more {
+    color: #0077C5;
+}
+
+fieldset {
+    border: none;
+    position: relative;
+    padding-bottom: 25px !important;
+}
+
+form {
+    width: 100%;
+}
+
+#fieldset {
+    border: none;
+    position: relative;
+    padding: 0 0 25px 0;
+}
+
+label {
+    display: block;
+    color: #404040;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+input {
+    width: 320px;
+    box-sizing: border-box;
+    height: 34px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    padding: 0 6px 0 8px;
+    color: #000;
+    outline: none;
+}
+
+.recommended {
+    opacity: 0.8;
+}
+
+.under-phone {
+    min-height: 20px;
+    padding: 5px 0;
+    color: #444;
+    font-size: 10px;
+}
+
+.pass-lock {
+    position: absolute;
+    /* i copied this from the inspect - its just a shorthand- */
+    background: url("images/lock.png")  no-repeat 0% 50% / 21px 21px;
+    /**/
+    width: 33px;
+    height: 38px;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 320px;
+    height: 44px;
+    background: #0077C5;
+    border:  #0077C5;
+    border-radius: 3px;
+    font-size: 1rem;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 75%);
+    margin-bottom: 20px;
+}
+
+.terms {
+    text-align: center;
+    font-size: 12px;
+    color: #757575;
+}
+
+.terms a, .recaptcha a {
+    color: #0077C5;
+}
+
+.recaptcha {
+    padding: 16px;
+    font-size: 10px;
+    color: #8d9096;
+    text-align: center;
+    background: #ECEEF1;
+    margin: 30px -30px -30px -30px;
+}
+
+.pad-10 {
+    padding: 0 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    color: #505050;
+    line-height: 1.5;
+}
+
+.footer-link {
+    color: #505050;
+}
+
+.privacy-settings {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    height: 64px;
+    font-size: 14px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.privacy-settings a {
+    color: #0077C5;
+}
+
