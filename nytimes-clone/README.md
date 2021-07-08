@@ -1,13 +1,15 @@
 # NYTimes Clone
 
-## [All Webpage Photo](https://github.com/amen6/the-odin-project/blob/main/nytimes-clone/images/all-webpage.png)
+The goal of this project is to use the positioning techniques you’ve learned before. It could be *Flexbox* or *Grid*, if they can’t achieve the layout you want, maybe you will use *Float* or other techniques, you also should try mixing techniques to achieve a specific layout.
 
-### My Header
+---
+
+## Header
 
  ![My header](images/web-head.png)
 
+---
 
-### My Footer 
- ![My footer](images/web-footer.png)
+## Fullscreen Capture
 
- 
+ [Png](images/all-webpage.png)

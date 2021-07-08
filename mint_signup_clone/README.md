@@ -1,7 +1,8 @@
 # Mint Clone
- Clone of the mint.com sign-up page.
+ In this project, i cloned [Mint](Mint.com) website. You didn't need to do anything dynamic functionality, the point is to make it look like the real page as much as you can.
 
 ---
 
-## Screen capture 
- ![Screen](mint-clone.png)
+## Screenshot
+
+ ![Screen](images/mint-clone.png)

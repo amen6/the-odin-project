@@ -5,7 +5,7 @@ ___
 # Screenshot
 
 ![header](images/header.png)
-> That's the desktop display
+> That's the header of the desktop display
 ___
 
 # Fullscreen Capture
