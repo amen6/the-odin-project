@@ -1,5 +1,5 @@
 # The-next-web
-The goal for this project is to use media queries to gracefully degrade the site as the window size is reduced. I also discovered about `object-fit` property and `clamp`, and i got more comfortable at using **Grid**. I have used only **Html** and **Css**.
+The goal for this project is to use media queries to gracefully degrade the site as the window size is reduced. I've used media queries to gracefully degrade their site as the window size is reduced. I also discovered about `object-fit` property and `clamp`, and i got more comfortable at using **Grid**. I have used only **Html** and **Css**.
 ___
 
 # Screenshot
