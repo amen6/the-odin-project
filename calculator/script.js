@@ -61,7 +61,11 @@ function twoNumbersAfterDecimal(num){
 
 function deleteNumber() {
     let output = numberWithoutCommas(screen.innerText)
-    output = output.slice(0, -1)
+    if (screen.innerText.length > 1) {
+        output = output.slice(0, -1)
+    } else {
+        output = "0"
+    }
     return screen.innerText = numberWithCommas(output);
 }
 
@@ -84,7 +88,7 @@ numbersButtons.forEach((number) => {
 // clearing everything
 clearButton.forEach((clearbutton) => {
     clearbutton.addEventListener('click', function(){
-        screen.innerText = '';
+        screen.innerText = '0';
         upperScreen.innerText = '';
         return;
     })
@@ -142,7 +146,7 @@ window.addEventListener('keydown', function(e) {
     } else if (e.key === "Backspace") {
         deleteNumber();
     } else if (e.key === "Escape") {
-        screen.innerText = '';
+        screen.innerText = '0';
         upperScreen.innerText = '';
     }
 })
